@@ -15,7 +15,7 @@ const NavBar = () => {
   // const nevigate=useNavigate();
   return (
     <>
-      <nav className='bg-black h-[3rem] w-[100%] flex justify-between items-center fixed'>
+      <nav className='bg-black h-[3rem] w-[131vw] flex justify-between items-center fixed'>
         <div className='text-white text-2xl font-bold'>
           Logo
         </div>
