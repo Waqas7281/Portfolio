@@ -11,7 +11,7 @@ const About = () => {
         <img src="/images/el.png"  alt="not found" />
         <img src="/images/w.png" alt="" className='absolute top-[20px] right-[29px] h-[16rem]' />
       </div>
-      <div> <p className="m-[2wv] text-white max-w-[20rem]  " >
+      <div> <p className="m-[2wv] text-white max-w-[20rem]  pt-3" >
       Hi, my name is Waqas Ali Shah, i am a Fullstack web developer, Frontend React js, and Backend developer. I have honed my skills in Web Development and advance i have core understanding of advance Development principles. 
       Here are the major skills i have. Years of experience. Specialised in building apps, while ensuring a seamless
       web experience for end users.
