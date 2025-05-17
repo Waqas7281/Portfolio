@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='text-white bg-gray-950 '>
         <h1 className='flex justify-center text-[2rem] p-3'>Logo</h1>
-        <ul className='flex justify-center gap-10 pt-3'>
+        <ul className='flex justify-center sm:gap-10 pt-3'>
             <li>Home</li>
              <li>Services</li>
               <li>About me</li>
@@ -12,7 +12,7 @@ const Footer = () => {
                 <li>Contect Me</li>
         </ul>
          <div className='flex justify-center pt-2 '><Icon /></div>
-        <div className='flex justify-center gap-[10%] pt-4 pb-10'>
+        <div className='flex justify-center sm:gap-[10%] pt-4 pb-10'>
             <p>WaqasAliShah9040@gmail.com</p>
             <p>0321-8636730</p>
         </div>
