@@ -78,7 +78,6 @@ const Home = () => {
     </main>
     <Services/>
     <About/>
-   
     </>
   );
 }

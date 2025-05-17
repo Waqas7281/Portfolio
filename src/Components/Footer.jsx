@@ -2,7 +2,7 @@ import React from 'react'
 import Icon from './Icon'
 const Footer = () => {
   return (
-    <div className='text-white bg-black bg-opacity-90 '>
+    <div className='text-white bg-gray-950 '>
         <h1 className='flex justify-center text-[2rem] p-3'>Logo</h1>
         <ul className='flex justify-center gap-10 pt-3'>
             <li>Home</li>

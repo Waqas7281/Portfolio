@@ -10,14 +10,9 @@ function App() {
   
 
   return (
-    <main  id='home'>
-     <div className="font-mono bg-black  w-[100%] h-[100%] px-10 py-8">
-        <NavBar/>
-      <Routes>
-        <Route name="Home" path="/home" element={<Home/>} />
-        <Route name="*" path="*" element={<Page/>} />    
-      </Routes>   
-     </div>
+    <main className="font-mono bg-black  w-[100%] h-[100%] px-10 py-8" id='home'>
+       <NavBar/>
+        <Home/>
       <Footer/>
      </main>
   )

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation , useNavigate } from 'react-router-dom';
-import Button from './Button';
+// import Button from './Button';
 
 const NavBar = () => {
   const location = useLocation();
@@ -12,7 +12,7 @@ const NavBar = () => {
     { name: 'Contact', link: '#contact' },
   ]);
 
-  const nevigate=useNavigate();
+  // const nevigate=useNavigate();
   return (
     <>
       <nav className='bg-black h-[3rem] w-full flex justify-between items-center fixed'>
