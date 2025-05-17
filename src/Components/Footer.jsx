@@ -12,7 +12,7 @@ const Footer = () => {
                 <li>Contect Me</li>
         </ul>
          <div className='flex justify-center pt-2 '><Icon /></div>
-        <div className='flex justify-center flex-xol  sm:gap-[10%] pt-4 pb-10 flex-wrap'>
+        <div className='flex justify-center flex-col  sm:gap-[10%] pt-4 pb-10 flex-wrap'>
             <p>WaqasAliShah9040@gmail.com</p>
             <p>0321-8636730</p>
         </div>
