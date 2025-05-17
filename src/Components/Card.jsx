@@ -18,11 +18,11 @@ const Card = () => {
 
   return (
     <>
-      <div className='flex flex-row gap-[5rem] justify-center' id='services'>
+      <div className='flex flex-wrap gap-[3rem] sm:gap-[5rem] justify-center' id='services'>
          {
         data.map((item,index)=>{
           return(
-            <div className='border-2 border-gray-900 bg-gray-900 grid-cols-3 h-[12rem] w-[18rem] rounded-xl' key={index}>
+            <div className='border-2 border-gray-900 bg-gray-900 sm:grid-cols-3 h-[12rem] w-[18rem] rounded-xl' key={index}>
               <p className='text-[75%] flex justify-center pt-[10%] text-orange-500'>{item.titel}</p>
               <p className='text-[70%]  flex justify-center pt-[10%]' >{item.frameWork}</p>
             </div>

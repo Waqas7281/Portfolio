@@ -15,7 +15,7 @@ const NavBar = () => {
   // const nevigate=useNavigate();
   return (
     <>
-      <nav className='bg-black h-[3rem] sm:w-[100%] flex justify-between items-center fixed'>
+      <nav className='bg-black h-[3rem] sm:w-[100%] flex justify-between items-center sm:fixed'>
         <div className='text-white text-2xl font-bold'>
           Logo
         </div>
@@ -35,7 +35,7 @@ const NavBar = () => {
             ))
           }
         </ul>
-        <div>w</div>
+        <div className='hidden'>w</div>
         {/* <Button/> */}
       </nav>
     </>

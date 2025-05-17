@@ -2,11 +2,11 @@ import React from 'react'
 
 const About = () => {
   return (
-    <main className='mt-[14rem] ' id='about' > 
+    <main className='sm:mt-[14rem]  mt-80' id='about' > 
     <div >
        <h2 className="text-white  font-bold flex justify-center text-[3rem]"  >About me:</h2>
     </div>
-    <div className='flex justify-between'>
+    <div className='flex sm:justify-between flex-col'>
       <div>
         <img src="" alt="not found" />
       </div>
