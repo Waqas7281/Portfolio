@@ -74,8 +74,9 @@ const Home = () => {
             }
          </div>
         </div>
-        <div>
-         <img src="../../public/Ellipse.png" alt=" no" />
+        <div className='py-4  relative'>
+         <img src="../public/images/el.png" alt=" no" />
+         <img src="../public/images/w.png" alt="" className='absolute top-0 h-[75%] ' />
         </div>
     </main>
     <Services/>
