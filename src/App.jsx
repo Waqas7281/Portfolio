@@ -10,11 +10,14 @@ function App() {
   
 
   return (
-    <main className="font-mono bg-black  w-[100%] h-[100%] px-10 py-8" id='home'>
+   <div>
+     <main className="font-mono bg-black  w-[100%] h-[100%] px-10 py-8" id='home'>
        <NavBar/>
-        <Home/>
-      <Footer/>
+       <Home/>  
+       
      </main>
+     <Footer/>
+   </div>
   )
 }
 
