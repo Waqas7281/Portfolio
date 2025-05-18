@@ -5,17 +5,17 @@ import About from './About';
 const Home = () => {
   const [images,setImages] = useState([
     {
-      img:'../../public/Ellipse.png',
+      img:'/images/ins.png',
     }
     ,
     {
-      img:'../../public/Ellipse.png',
+      img:'/images/lin.png',
     },
     {
-      img:'../../public/Ellipse.png',
+      img:'/images/dri.png',
     },
     {
-      img:'../../public/Ellipse.png',
+      img:'/images/be.png',
     }
     
   ])
