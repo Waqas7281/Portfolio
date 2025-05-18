@@ -6,7 +6,7 @@ const About = () => {
     <div >
        <h2 className="text-white  font-bold flex justify-center text-[3rem]"  >About me:</h2>
     </div>
-    <div className='flex sm:justify-between flex-col'>
+    <div className='flex sm:justify-between flex-col items-center'>
       <div className='relative'>
         <img src="/images/el.png"  alt="not found" />
         <img src="/images/w.png" alt="" className='absolute top-[20px] right-[29px] h-[16rem]' />
@@ -16,6 +16,7 @@ const About = () => {
       Here are the major skills i have. Years of experience. Specialised in building apps, while ensuring a seamless
       web experience for end users.
       </p></div>
+      <button className='text-white bg-orange-500 p-4 rounded-md mt-4 w-[9rem] '>Dawnload Cv</button>
     </div>
     
     </main>
