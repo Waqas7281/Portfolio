@@ -2,10 +2,10 @@ import React from 'react';
 
 const Icon = () => {
   const images = [
-    { img: '/Ellipse.png' },
-    { img: '/Ellipse.png' },
-    { img: '/Ellipse.png' },
-    { img: '/Ellipse.png' }
+    { img: '/images/ins.png' },
+    { img: '/images/lin.png' },
+    { img: '/images/dri.png' },
+    { img: '/images/be.png' }
   ];
 
   return (
