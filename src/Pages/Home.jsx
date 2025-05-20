@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import Button from '../Components/Button';
 import Services from './Services';
 import About from './About';
+import DawnloadCv from '../Components/DawnloadCv';
 const Home = () => {
   const [images,setImages] = useState([
     {
@@ -54,16 +55,16 @@ const Home = () => {
             })
           }
           </div>
-          <div className='mt-4 flex gap-5 justify-center'>
+          <div className='mt-4 flex gap-4 justify-center items-center'>
           <Button/>
-          <button className='text-white border-[1px] px-4 py-1 rounded-md sm:ml-[5%] text-[10px] '>Dawnload Cv</button>
+         <DawnloadCv/>
          </div>
          <div className='flex border-[1px] bg-slate-200  bg-opacity-20 h-[50%] mt-[4%] rounded-md  items-center justify-around'>
             {
               Data.map((item,index)=>{
                 return(
                   <div key={index} className='flex float-left flex-col '  >
-                  <p className='  text-orange-500  ' >{item.exp}</p>
+                  <p className='  text-orange-500  pt-3 ' >{item.exp}</p>
                  <div className='flex gap-1 justify-center items-center pb-3'>
                    <p className=' text-white text-[10px]'>{item.title}</p>
                   <span className='border-2 h-[30px] border-l-0 border-t-0 border-b-0 flex '></span>

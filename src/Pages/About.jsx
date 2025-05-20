@@ -1,4 +1,5 @@
 import React from 'react'
+import DawnloadCv from '../Components/DawnloadCv'
 
 const About = () => {
   return (
@@ -16,9 +17,11 @@ const About = () => {
       Here are the major skills i have. Years of experience. Specialised in building apps, while ensuring a seamless
       web experience for end users.
       </p></div>
-      <button className='text-white bg-orange-500 p-4 rounded-md mt-4 w-[9rem] '>Dawnload Cv</button>
+    <div className='mt-3'>
+      <DawnloadCv/>
     </div>
-    
+    </div>
+     
     </main>
   )
 }
